@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     getPokemon();
     console.log(data);
-  }, [""]);
+  }, []);
   console.log(name);
   function handleSubmit(e) {
     e.preventDefault();
